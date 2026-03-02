@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professional Attendance Processor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Professional Attendance Processor</h2>
+    <form id="uploadForm">
+        <input type="file" name="file" accept=".xlsx,.xls" required>
+        <button type="submit">Generate Report</button>
+    </form>
+    <p id="status"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
